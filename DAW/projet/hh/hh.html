@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Guide de voyage en ligne</title>
+  <link rel="stylesheet" href="hh.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Guide de voyage</h1>
+    <img src="background.jpg" alt="Background Image">
+  </header>
+  <nav>
+    <div class="student-info">
+      <p>Nom: Toto</p>
+      <p>Prénom: Tutu</p>
+      <p>Spécialité: TI</p>
+      <p>Section: 1</p>
+      <p>Groupe: 2</p>
+      <p>Mail: t.toto@mail.dz</p>
+    </div>
+    <a href="formulaire.php" class="add-city-link">Ajouter Ville</a>
+  </nav>
+  <section>
+    <form action="recherche.php" method="GET">
+      <input type="text" name="ville" placeholder="Ville">
+      <input type="text" name="pays" placeholder="Pays">
+      <input type="text" name="continent" placeholder="Continent">
+      <input type="text" name="site" placeholder="Site">
+      <input type="submit" value="Valider">
+    </form>
+  </section>
+</body>
+</html>
